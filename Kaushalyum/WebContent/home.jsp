@@ -15,8 +15,6 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 
 	<script src="js/jquery.js"></script>
-
-
 	<script src="js/jquery-migrate-1.2.1.js"></script>
 	<script src='js/camera.js'></script>
 	<script src="js/owl.carousel.js"></script>
