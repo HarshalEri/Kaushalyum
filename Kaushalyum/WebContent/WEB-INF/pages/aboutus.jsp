@@ -48,13 +48,11 @@
 					<h1><a href="index.html">KAUSHALYUM</a><span>We care your baby</span></h1>
 					<nav>
 						<ul class="sf-menu">
-							<li><a href="index.html">Home</a>
-								
-							</li>
-							<li class="current"><a href="index-1.html">About</a></li>
-							<li><a href="index-2.html">Terms</a></li>
-							<li><a href="index-3.html">Services</a></li>
-							<li><a href="index-4.html">Contacts</a></li>
+							<li><a href="home.jsp">Home</a></li>
+							<li class="current"><a href="aboutus">About</a></li>
+							<li><a href="terms">Terms</a></li>
+							<li><a href="services">Services</a></li>
+							<li><a href="contacts">Contacts</a></li>
 						</ul>
 					</nav>
 				</div>
