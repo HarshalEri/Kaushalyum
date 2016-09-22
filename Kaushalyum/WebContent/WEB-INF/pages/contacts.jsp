@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 	<head>
-	<title>Services</title>
+	<title>Kaushalyum|Contacts</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -104,52 +104,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_5">
-					<form id="contact-form" action="mailto:kaushalyum@gmail.com" method="post" enctype="text/plain">
-						<div class="contact-form-loader"></div>
-							<header>
-								<h2><span>REGISTRATION</span></h2>
-							</header>
-							<fieldset>
-									<label class="name">
-										<span class="text">Your Name:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
-											<span class="empty-message">*This field is required.</span>
-											<span class="error-message">*This is not a valid name.</span>
-									</label>
-									<label class="email">
-										<span class="text">Your E-mail:</span>
-										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid email.</span>
-									</label>
-									<label class="phone">
-										<span class="text">Contact:</span>
-										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required @JustNumbers" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid phone.</span>
-									</label>
-									<label class="Age"><span class="text">Age:</span>
-										<input type="text" name="Age" placeholder="" value="" data-constraints="@Required @Length(min=1,max=3)" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a Valid Age.</span>
-									</label>
-										<label class="Occupation">
-										<span class="text">Your Occupation:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
-											<span class="empty-message">*This field is required.</span>
-											<span class="error-message">*This is not valid Occupation.</span></label>		
-
-									<label class="message">
-										<span class="text">Message:</span>
-										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*The message is too short.</span>
-									</label>
-								<div class="cont_btn">
-									<a href="#" data-type="reset" class="btn">Clear</a>
-									<a href="#" data-type="submit" class="btn">Send</a>
-								</div>
-						</fieldset> 
+					
 						<div class="modal fade response-message">
 							<div class="modal-dialog">
 								<div class="modal-content">

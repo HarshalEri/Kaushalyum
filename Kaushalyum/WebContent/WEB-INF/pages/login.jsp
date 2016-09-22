@@ -60,7 +60,7 @@
 	    <s:input placeholder="username" path="username"/>
 	    <s:password placeholder="password" path="password"/>
 	    <button>login</button>
-      	<p class="message">Not registered? <a href="#">Create an account</a></p>
+      	<p class="message">Not registered? <a href="registration">Create an account</a></p>
     </s:form>
   </div>
 </div><!-- http://codepen.io/colorlib/pen/rxddKy -->

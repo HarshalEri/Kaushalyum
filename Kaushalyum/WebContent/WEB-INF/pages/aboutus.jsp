@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-	<title>About Us</title>
+	<title>Kaushalyum|About Us</title>
 	<meta content="text/html; charset=UTF-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<h1><a href="index.html">KAUSHALYUM</a><span>We care your baby</span></h1>
+					<h1><a href="home.jsp">KAUSHALYUM</a><span>We care your baby</span></h1>
 					<nav>
 						<ul class="sf-menu">
 							<li><a href="home.jsp">Home</a></li>
