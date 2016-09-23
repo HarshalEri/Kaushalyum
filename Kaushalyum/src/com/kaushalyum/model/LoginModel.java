@@ -7,7 +7,7 @@ public class LoginModel {
 	private String username;
 	private String password;
 	public LoginModel() {
-		this(" ", " ");
+		this(null, null);
 	}
 	public LoginModel(String username, String password) {
 		this.username = username;

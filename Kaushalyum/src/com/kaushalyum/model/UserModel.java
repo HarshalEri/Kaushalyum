@@ -1,5 +1,7 @@
 package com.kaushalyum.model;
 
+import java.math.BigInteger;
+
 public class UserModel {
 
 	private String firstName;
@@ -8,16 +10,16 @@ public class UserModel {
 	private String password;
 	private String email;
 	private String address;
-	private int contactno;
+	private BigInteger contactno;
 	private int age;
 	
 	public UserModel() {
-		this("","","","","","",00,00);
+		this(null,null,null,null,null,null,null,00);
 	}
 	
 	
 	public UserModel(String firstName, String lastName, String userName, String password, String email, String address,
-			int contactno, int age) {
+			BigInteger contactno, int age) {
 		
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -64,13 +66,13 @@ public class UserModel {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getContactno() {
+	public BigInteger getContactno() {
 		return contactno;
 	}
-	public void setContactno(int contactno) {
+	public void setContactno(BigInteger contactno) {
 		this.contactno = contactno;
 	}
-	public int getAge() {
+	public  int getAge() {
 		return age;
 	}
 	public void setAge(int age) {
