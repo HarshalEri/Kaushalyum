@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 	<head>
-	<title>Kaushalyum|Contacts</title>
+	<title>Kaushalyum | Contacts</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -46,14 +46,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<h1><a href="index.html">KAUSHALYUM</a><span>We care your baby</span></h1>
+					<h1><a href="home.jsp">KAUSHALYUM</a><span>We care your baby</span></h1>
 					<nav>
 						<ul class="sf-menu">
-							<li><a href="index.html">Home</a>
-							<li><a href="index-1.html">About</a></li>
-							<li><a href="index-2.html">Terms</a></li>
-							<li><a href="index-3.html">Services</a></li>
-							<li class="current"><a href="index-4.html">Contacts</a></li>
+							<li><a href="home.jsp">Home</a>
+							<li><a href="login">Login</a></li>
+							<li><a href="terms">Terms</a></li>
+							<li><a href="services">Services</a></li>
+							<li class="current"><a href="contacts">Contacts</a></li>
+							<li><a href="aboutus">AboutUs</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -81,49 +82,14 @@
 			</div>
 		</div>
 	</div>
-<section class="container">
-<div class="login">
-      <h1><font size="8">LOGIN TO KAUSHALYUM</font></h1>
-      <form method="post" action="index.html">
-        <p><input type="text" name="login" value="" placeholder="Username or Email"></p>
-        <p><input type="password" name="password" value="" placeholder="Password"></p>
-        <p class="remember_me">
-          <label>
-            <input type="checkbox" name="remember_me" id="remember_me">
-            Remember me on this computer
-          </label>
-        </p>
-        <p class="submit"><input type="submit" name="commit" value="Login"></p>
-      </form>
-    </div>
-    <div class="login-help">
-      <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
-    </div>
-  </section>
+
 	<div class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
-				<div class="grid_5">
-					
-						<div class="modal fade response-message">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title">Modal title</h4>
-									</div>
-									<div class="modal-body">
-										You message has been sent! We will be in touch soon.
-									</div>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
 				<div class="grid_6 preffix_1">
 					<div>
 						<hader>
-							<h2><span>Contact Information</span></h2>
+							<h2 align="center"><span >Contact Information</span></h2>
 						</hader>
 						<p class="el-1">
 						

@@ -33,8 +33,6 @@ public class Userdetail implements Serializable {
 
 	private String password;
 
-	private String userName;
-
 	public Userdetail() {
 	}
 
@@ -92,14 +90,6 @@ public class Userdetail implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
-	}
-
-	public String getUserName() {
-		return this.userName;
-	}
-
-	public void setUserName(String userName) {
-		this.userName = userName;
 	}
 
 }

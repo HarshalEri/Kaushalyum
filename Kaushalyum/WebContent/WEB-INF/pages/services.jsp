@@ -1,7 +1,11 @@
-﻿<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+ <%@ taglib prefix="s" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 	<head>
-	<title>Services</title>
+	<title>Kaushalyum | Services</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -41,15 +45,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<h1><a href="index.html">KAUSHALYUM</a><span>We care your baby</span></h1>
+					<h1><a href="home.jsp">KAUSHALYUM</a><span>We care your baby</span></h1>
 					<nav>
 						<ul class="sf-menu">
-							<li><a href="index.html">Home</a>
-							</li>
-							<li><a href="index-1.html">About</a></li>
-							<li><a href="index-2.html">Terms</a></li>
-							<li class="current"><a href="index-3.html">Services</a></li>
-							<li><a href="index-4.html">Contacts</a></li>
+							<li><a href="home.jsp">Home</a>
+							<li><a href="login">Login</a></li>						
+							<li><a href="terms">Terms</a></li>
+							<li class="current"><a href="services">Services</a></li>
+							<li><a href="contacts">Contacts</a></li>
+							<li><a href="aboutus">AboutUs</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -140,7 +144,7 @@ Lift the baby from the tub.</p> </div>
 				<h2><span>Follow Us</span></h2>
 				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png" class="img-circle" height="100" width="100"></span></a>
 				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
-				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
+				<pre>� <span id="copyright-year"></span> |  Privacy Policy</pre>
 			</div>
 		</div>
 	</div>

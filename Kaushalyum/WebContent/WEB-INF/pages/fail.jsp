@@ -3,19 +3,18 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
  <%@ taglib prefix="s" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<html>
 	<head>
-	<title>Kaushalyum | Terms</title>
-	<meta charset="utf-8">
+	<title>Kaushalyum </title>
+	<meta content="text/html; charset=UTF-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/touchTouch.css">
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-migrate-1.2.1.js"></script>
-	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/jquery.stellar.js"></script>
 	<script src="js/script.js"></script>
 	<!--[if (gt IE 9)|!(IE)]><!-->
 	<script src="js/wow.js"></script>
@@ -39,7 +38,7 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
 	</head>
-<body class="index-2">
+<body class="index-1">
 <!--==============================header=================================-->
 <header id="header">
 	<div id="stuck_container">
@@ -49,12 +48,12 @@
 					<h1><a href="home.jsp">KAUSHALYUM</a><span>We care your baby</span></h1>
 					<nav>
 						<ul class="sf-menu">
-						<li><a href="home.jsp">Home</a>
-							<li><a href="aboutus">About</a></li>
-							<li class="current"><a href="terms">Terms</a></li>
+							<li><a href="home.jsp">Home</a></li>
+							<li><a href="login">Login</a></li>	
+							<li><a href="terms">Terms</a></li>
 							<li><a href="services">Services</a></li>
 							<li><a href="contacts">Contacts</a></li>
-							<li><a href="login">Login</a></li>
+							<li class="current"><a href="aboutus">AboutUs</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -70,42 +69,69 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
+				</div>
+				<div class="grid_4">
+					<div class="img_container"><img src="images/index-1_img-1.jpg" alt="img"></div>
+				</div>
+				<div class="grid_7 preffix_1">
+					<p>Having a detail study of service sector Industries and requirement of common people ,We have come up with a unique Idea of connecting skilled people who would take care of your baby .This is the age of technology and recognising this need we come together .We train people and ensure that we provide services professionally .We provide service to your home by sending skilled professionals who possess scientific knowledge about how to bath your baby , massage your baby, and other minute details. </p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-width-container block-2 parallax-block" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
 					<header>
-						<h2><span>Terms And Conditions</span></h2>
+						<h2><span>Our Team</span></h2>
 					</header>
 				</div>
-				<div id="touch_gallery">
-					<div class="grid_4">
-						<div class="img_container"><a href="images/index-2_img-1-big.jpg"><img src="images/index-2_img-1.jpg" alt="projects" height="200"></a></div>
-						<article>
-							<h4>I</h4>
-							<p>As we provide the ayas for the child bath & massage. Our ayas are well trained & experienced.</p>
-						</article>
+				<div class="grid_3">
+					<article>
+						<div class="img_container"><img src="images/Amol.jpg" alt="our team" height="240"></div>
+						<h4>Amol Eri</h4>
+						<p></p>
+					</article>
+				</div>
+				<div class="grid_3">
+					<article>
+						<div class="img_container"><img src="images/index-1_img-3.jpg" alt="our team" height="240"></div>
+						<h4>Vaibhav Deshpande</h4>
+						<p></p>
+					</article>
+				
+	
+			</div>
+		</div>
+	</div>
+	<div class="full-width-container block-3">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span>Why Choose Us</span></h2>
+					</header>
+				</div>
+				<div class="grid_4">
+					<div class="grid_1 alpha"><span class="element bd-ra">1</span></div>
+					<div class="grid_3">
+						<p>We listen, we discuss, we advise. Sounds obvious but we listen to your ideas, plans and objectives for your business. We then select the best solution to fit. We don’t shoehorn projects and if we feel we’re not a good fit we’ll be honest and tell you from the outset. </p>
 					</div>
-					<div class="grid_4">
-						<div class="img_container"><a href="images/index-2_img-2-big.jpg"><img src="images/index-2_img-2.jpg" alt="projects"></a></div>
-						<article>
-							<h4>II</h4>
-							<p>As we provide the services to your home, you have the right to check the  bags of ayas when they leave your home.</p>
-						</article>
+				</div>
+				<div class="grid_4">
+					<div class="grid_1 alpha"><span class="element bd-ra">2</span></div>
+					<div class="grid_3">
+						<p>What sets us apart from the competition is that we're passionate about the products/services we provide and quality of support.</p>
 					</div>
-					<div class="grid_4">
-						<div class="img_container"><a href="images/index-2_img-3-big.jpg"><img src="images/index-2_img-3.jpg" alt="projects"></a></div>
-						<article>
-							<h4>III</h4>
-							<p>You can give your feed back & suggestions on our Facebook page or you can also mail it on <a href ="mailto:http://kaushalyum@gmail.com">kaushalyum@gmail.com</a></p>
-						</article>
+				</div>
+				<div class="grid_4">
+					<div class="grid_1 alpha"><span class="element bd-ra">3</span></div>
+					<div class="grid_3">
+						<p>We're always looking to improve every aspect of our business. From more features all the way to more frequent tutorials.</p>
 					</div>
-					<div class="grid_4">
-						<div class="img_container"><a href="images/index-2_img-4-big.jpg"><img src="images/index-2_img-4.jpg" alt="projects" height="200"></a></div>
-						<article>
-							<h4>IV</h4>
-							<p>As part of the registration process on the Site, Kaushalyum may collect the following personally identifiable information about you: Name including first and last name, alternate email address, mobile phone number and contact details, Postal code, Demographic profile (like your age, gender, occupation,  address etc.) and information about the pages on the site you visit/access, the links you click on the site, the number of times you access the page and any such browsing information.</p>
-						</article>
-					</div>
-					
-					
-					
+				</div>
 			</div>
 		</div>
 	</div>
@@ -119,16 +145,22 @@
 				<h2><span>Follow Us</span></h2>
 				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png" class="img-circle" height="100" width="100"></span></a>
 				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
-				<pre>� <span id="copyright-year"></span> |  Privacy Policy</pre>
+				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
 			</div>
 		</div>
 	</div>
-	
 </footer>
 <script>
-	$(function(){
-		$('#touch_gallery a').touchTouch();
-	});
+	$(document).ready(function() { 
+			if ($('html').hasClass('desktop')) {
+				$.stellar({
+					horizontalScrolling: false,
+					verticalOffset: 20,
+					resposive: true,
+					hideDistantElements: true,
+				});
+			}
+		});	
 </script>
 <a href="http://www.freecounterstat.com" target="_Blank" title="hit counter">hit counter</a><br/> <script type="text/javascript" src="http://counter10.01counter.com/private/counter.js?c=7f3273a0fb6bae605244c32a7cdf07b5"></script> 
 </body>

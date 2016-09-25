@@ -4,21 +4,16 @@ package com.kaushalyum.model;
 
 public class LoginModel {
 	
-	private String username;
+	private String email;
 	private String password;
 	public LoginModel() {
 		this(null, null);
 	}
-	public LoginModel(String username, String password) {
-		this.username = username;
+	public LoginModel(String emailId, String password) {
+		this.email = emailId;
 		this.password = password;
 	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
+	
 	public String getPassword() {
 		return password;
 	}
@@ -27,6 +22,12 @@ public class LoginModel {
 	}
 	@Override
 	public String toString() {
-		return String.format("LoginModel [username=%s, password=%s]", username, password);
+		return String.format("LoginModel [username=%s, password=%s]", email, password);
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

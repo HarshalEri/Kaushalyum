@@ -16,7 +16,7 @@ public class LoginService {
 	private UserDao userDao;
 	
 	public boolean validateLogin(LoginModel loginDetails){
-		Userdetail userDetails = userDao.getUserDetails(loginDetails.getUsername());
+		Userdetail userDetails = userDao.getUserDetails(loginDetails.getEmail());
 		if(userDetails != null) {
 			if(userDetails.getPassword().equals(loginDetails.getPassword()))
 					return true;

@@ -1,22 +1,16 @@
 package com.kaushalyum.services;
 
-import java.net.InetAddress;
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Hashtable;
 import java.util.Properties;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
+import javax.mail.Authenticator;
 import javax.mail.Message;
-import javax.mail.Multipart;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
-import javax.mail.internet.MimeMessage.RecipientType;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,77 +28,103 @@ public class UserService {
 	@Autowired
 	private UserDao userDao;
 	
-	public void registerUser(UserModel userInfo){
-		Userdetail userdetail = new Userdetail();
-		userdetail.setFirstName(userInfo.getFirstName());
-		userdetail.setLastName(userInfo.getLastName());
-		userdetail.setUserName(userInfo.getUserName());
-		userdetail.setEmail(userInfo.getEmail());
-		userdetail.setPassword(userInfo.getPassword());
-		userdetail.setAddress(userInfo.getAddress());
-		userdetail.setAge(userInfo.getAge());
-		userdetail.setContactno(userInfo.getContactno());
-		
-		userDao.insertUser(userdetail);
-		
-		
+	public void registerUser(UserModel userInfo) throws Exception{
+		try {
+			Userdetail userdetail = new Userdetail();
+			userdetail.setFirstName(userInfo.getFirstName());
+			userdetail.setLastName(userInfo.getLastName());
+			userdetail.setEmail(userInfo.getEmail());
+			userdetail.setPassword(userInfo.getPassword());
+			userdetail.setAddress(userInfo.getAddress());
+			userdetail.setAge(userInfo.getAge());
+			userdetail.setContactno(userInfo.getContactno());
+			userDao.insertUser(userdetail);
+			//this.sendMail(userInfo.getEmail());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			throw new Exception(e.getMessage());
+		}
+
 	}
 	
-/*	private void sendMail(String resultsPath) throws Exception {
-		try {
+	private void sendMail(String recipientEmail) throws Exception {
 			
-
+	/*	String PORT = "587";
+			String STARTTLS = "true";
+			String HOST = "localhost";
+			String PASSWORD = "success@123!";
+			String FROM = "kaushalyum@gmail.com";
+			String USER = "sendMail@gmail.com";
+			String to = recipientEmail;
 
 			System.out.println("Sending mail...");
-			Properties props = new Properties();
-			props.put("mail.smtp.port", PORT);
-			props.setProperty("mail.user", USER);
-			props.setProperty("mail.host", HOST);
-			props.setProperty("mail.password", PASSWORD);
-			props.put("mail.smtp.starttls.enable", STARTTLS);
-			props.setProperty("mail.transport.protocol", "smtp");
+		  // Get system properties
+	      Properties properties = System.getProperties();
 
-			Session mailSession = Session.getDefaultInstance(props, null);
-			MimeMessage message = new MimeMessage(mailSession);
-			for(int i=0;i<TO.length;i++) {
-				message.addRecipient(RecipientType.TO, new InternetAddress(TO[i]));
-			}
-			for(int i=0;i<BCC.length;i++) {
-				message.addRecipient(RecipientType.BCC, new InternetAddress(BCC[i]));
-			}
-			message.addFrom(new InternetAddress[] { new InternetAddress(FROM) });
-			Multipart mp = new MimeMultipart();
+	      // Setup mail server
+	      properties.setProperty("mail.smtp.host", "10.101.3.229");
+	      //properties.setProperty("mail.smtp.host", HOST)
 
-			MimeBodyPart mbp = new MimeBodyPart();
-			FileDataSource fds = new FileDataSource(resultsPath + "Summary.htm");
-			mbp.setDataHandler(new DataHandler(fds));
-			mp.addBodyPart(mbp);
+	      // Get the default Session object.
+	      Session session = Session.getDefaultInstance(properties);
 
-			MimeBodyPart mbp1 = new MimeBodyPart();
-			FileDataSource fds1 = new FileDataSource(resultsPath + "Result.zip");
-			mbp1.setDataHandler(new DataHandler(fds1));
-			mbp1.setFileName("Result.zip");
-			mp.addBodyPart(mbp1);
+	      try {
+	         // Create a default MimeMessage object.
+	         MimeMessage message = new MimeMessage(session);
 
-			message.setContent(mp);
-			message.setSentDate(new Date());
-			Date sentDate = message.getSentDate();
-			SimpleDateFormat format = new SimpleDateFormat("dd-MMM-YYYY");
-			String date = format.format(sentDate);
-			InetAddress addr = InetAddress.getLocalHost();
-			String hostName = addr.getHostName();
-			//message.setSubject("["+hostName+"]"+" Automation Test Pass Report ["+table.get("TestSuite")+"] - " + sentDate.getDate()+" "+sentDate.getgetMonth()+" "+sentDate.getYear());
-			message.setSubject("["+hostName+"]"+"Samaritan Automation Report ["+table.get("TestSuite")+"] - " + date);
+	         // Set From: header field of the header.
+	         message.setFrom(new InternetAddress(FROM));
 
-			Transport transport1 = mailSession.getTransport("smtp");
-			transport1.connect(HOST, USER, PASSWORD);
-			transport1.sendMessage(message,message.getRecipients(Message.RecipientType.TO));			
-			transport1.sendMessage(message,message.getRecipients(Message.RecipientType.BCC));
-			
-			transport1.close();
-		} catch (Exception e) {
-			throw new Exception("Exception occured in sendMail method:" + e.getMessage());
-		}
-	}
- */
+	         // Set To: header field of the header.
+	         message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+
+	         // Set Subject: header field
+	         message.setSubject("This is the Subject Line!");
+
+	         // Now set the actual message
+	         message.setText("This is actual message");
+
+	         // Send message
+	         Transport.send(message);
+	         System.out.println("Sent message successfully....");
+	      }catch (MessagingException mex) {
+	         mex.printStackTrace();
+	      } */
+		
+	      final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
+	      // Get a Properties object
+	         Properties props = System.getProperties();
+	         props.setProperty("mail.smtp.host", "smtp.gmail.com");
+	         props.setProperty("mail.smtp.socketFactory.class", SSL_FACTORY);
+	         props.setProperty("mail.smtp.socketFactory.fallback", "false");
+	         props.setProperty("mail.smtp.port", "465");
+	         props.setProperty("mail.smtp.socketFactory.port", "465");
+	         props.put("mail.smtp.auth", "true");
+	         props.put("mail.debug", "true");
+	         props.put("mail.store.protocol", "pop3");
+	         props.put("mail.transport.protocol", "smtp");
+	         final String username = "kaushalyum@gmail.com";//
+	         final String password = "success@123!";
+	         try{
+	         Session session = Session.getDefaultInstance(props, 
+	                              new Authenticator(){
+	                                 protected PasswordAuthentication getPasswordAuthentication() {
+	                                    return new PasswordAuthentication(username, password);
+	                                 }});
+
+	       // -- Create a new message --
+	         Message msg = new MimeMessage(session);
+
+	      // -- Set the FROM and TO fields --
+	         msg.setFrom(new InternetAddress("xxxx@gmail.com"));
+	         msg.setRecipients(Message.RecipientType.TO, 
+	                          InternetAddress.parse(recipientEmail,false));
+	         msg.setSubject("Hello");
+	         msg.setText("How are you");
+	         msg.setSentDate(new Date());
+	         Transport.send(msg);
+	         System.out.println("Message sent.");
+	      }catch (MessagingException e){ System.out.println("Erreur d'envoi, cause: " + e);}
+	      }   
+	      
 }
