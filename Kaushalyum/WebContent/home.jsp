@@ -116,19 +116,19 @@
 						<h2><span>Services</span></h2>
 					</header>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="element"><h3>Child Bath</h3></div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="element"><h3>Massaging</h3></div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="element"><h3>Washing Clothes</h3></div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="element"><h3>Applying Oil</h3></div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="element"><h3>Child Hygene</h3></div>
 				</div>
 			</div>
@@ -146,31 +146,31 @@
 			<div class="row">
 				<div id="owl-carousel" class="owl-carousel">
 					
-					<div class="grid_4">
+					<div class="grid_4_1">
 						<div class="">
 							<div class="img_container"><img src="images/child.jpg" alt="img" height="200"></div>
 							<div class="owl-text">Save Girl Child</div>
 						</div>
 					</div>
-					<div class="grid_4">
+					<div class="grid_4_1">
 						<div class="">
 							<div class="img_container"><img src="images/pri.jpg" alt="img" height="200"></div>
 							<div class="owl-text">Hygiene</div>
 						</div>
 					</div>
-					<div class="grid_4">
+					<div class="grid_4_1">
 						<div class="">
 							<div class="img_container"><img src="images/index_img-2.jpg" alt=""></div>
 							<div class="owl-text">Child Care</div>
 						</div>
 					</div>
-					<div class="grid_4">
+					<div class="grid_4_1">
 						<div class="">
 							<div class="img_container"><img src="images/wel.jpg" alt="" height="200"></div>
 							<div class="owl-text">Social welfare</div>
 						</div>
 					</div>
-					<div class="grid_4">
+					<div class="grid_4_1">
 						<div class="">
 							<div class="img_container"><img src="images/dc.jpg" alt="" height="200"></div>
 							<div class="owl-text">Training</div>
@@ -188,21 +188,21 @@
 						<h2><span>WHO Guidelines</span></h2>
 					</header>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<article>
 						<h3>2009</h3>
 						<p>The Baby-friendly Hospital Initiative (BFHI) is a global effort launched by WHO and UNICEF to implement practices that protect, promote and support breastfeeding.</p>
 						
 					</article>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<article>
 						<h3>2009</h3>
 						<p>A list of acceptable medical reasons for supplementation was originally developed by WHO and UNICEF as an annex to the Baby-friendly Hospital Initiative (BFHI) package of tools in 1992.</p>
 						
 					</article>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<article>
 						<h3>2016</h3>
 						<p>This guideline provides global, evidence-informed recommendations on daily iron supplementation in infants and children, as a public-health intervention for the prevention of anaemia and iron deficiency.</p>
@@ -219,9 +219,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png"  height="100" width="100"></span></a>
-				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
+				<h3><span>Follow Us</span></h3>
+				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
 				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
 				
 			</div>
@@ -270,6 +270,6 @@
 			}
 		});
 </script>
-<a href="http://www.freecounterstat.com" target="_Blank" title="hit counter">hit counter</a><br/> <script type="text/javascript" src="http://counter10.01counter.com/private/counter.js?c=7f3273a0fb6bae605244c32a7cdf07b5"></script> 
+ 
 </body>
 </html>

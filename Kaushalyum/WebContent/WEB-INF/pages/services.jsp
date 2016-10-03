@@ -65,39 +65,77 @@
 <!--=======content================================-->
 
 <section id="content">
-	<div class="full-width-container block-1">
 		<div class="container">
 			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span> Main Services And Packages</span></h2>
-					</header>
+						<h4><span> Main Services And Packages</span></h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="grid_8">
-					<article class="clearfix">
-						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-1.jpg" alt="img"></div>
+			<table>
+				<tr>
+					<td>
+						<div class="grid_4_1">
+							<div class="img_container">
+								<img src="images/index-3_img-1.jpg" alt="img">
+							</div>
 						</div>
-						<div class="grid_4">
-							<h5>I</h5>
-							<p><h3><font size="18">JOB- Child Bath </h3><br><h3><p><h3>DURATION-<h3> 1 month</h3></h3> </p></h3><br><h3>FARE- 5000.00/-</font></h3><p><i><b>* 10% Discount for Girl Child !.</b></I></p></p>
+					</td>
+					<td>
+						<div class="grid_4_1">
+							<p><h3><font size="18"> Child Bath</h3>
+							<h3>
+								<p><h3>
+									DURATION-1 month
+								</h3>
+								</p>
+							</h3>
+							<h3>
+								FARE- 5000.00/-
+							</h3>
+							<p>
+								<i><b>* 10% Discount for Girl Child !.</b></I>
+							</p>
+							</p>
 						</div>
-					</article>
-					<article class="clearfix">
-						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-2.jpg" alt="img"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="grid_4_1">
+							<div class="img_container">
+								<img src="images/index-3_img-2.jpg" alt="img">
+							</div>
 						</div>
-						<div class="grid_4">
-							<h5>II</h5>
-							<p><h3><font size="18">JOB- Child + Mother Massage </h3><br> <h3><p><h3>DURATION- <h3>1 Month</h3></h3></p> </h3><br><h3> FARE- 7500.00/-</font></h3></p><p><i><b>* 10% Discount for Girl Child !.</b></i></p>
+					</td>
+					<td>
+						<div class="grid_4_1">
+							<p>
+							<h3>
+								<font size="18">JOB- Child + Mother Massage 
+							</h3>
+							<h3>
+								<p>
+								<h3>
+									DURATION-
+									<h3>1 Month</h3>
+								</h3>
+								</p>
+							</h3>
+							<h3>
+								FARE- 7500.00/-</font>
+							</h3>
+							</p>
+							<p>
+								<i><b>* 10% Discount for Girl Child !.</b></i>
+							</p>
 						</div>
-					</article>
-					
-					
-					
-				<div class="grid_4">
+					</td>
+				</tr>
+			</table>
+
+
+			<div class="grid_4_1">
 					<h5 class="h5__mod">Useful links</h5>
 					<ul>
 						<li><a href="http://www.firstcry.com/">First Cry</a></li>
@@ -117,16 +155,16 @@
 							<h2><span>How to Bathe Your Baby</span></h2>
 						</header>
 					</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="text_content"><p>Lay your baby in the tub feet first. Keep one hand supporting the baby's back, neck and head as you carefully lower him or her into the tub. ...
 </p> </div>
 					<h5>A</h5>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="text_content"><p>Begin washing the baby. Use a cup, or your cupped hand, to get the baby's body wet. ...</p> </div>
 					<h5>B</h5>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="text_content"><p>Wash the hair. ...
 Lift the baby from the tub.</p> </div>
 					<h5>C</h5>
@@ -141,14 +179,15 @@ Lift the baby from the tub.</p> </div>
 	<div class="container">
 		<div class="row">
 			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png" class="img-circle" height="100" width="100"></span></a>
-				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
+				<h3><span>Follow Us</span></h3>
+				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
 				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
+				
 			</div>
 		</div>
 	</div>
+	
 </footer>
-<a href="http://www.freecounterstat.com" target="_Blank" title="hit counter">hit counter</a><br/> <script type="text/javascript" src="http://counter10.01counter.com/private/counter.js?c=7f3273a0fb6bae605244c32a7cdf07b5"></script> 
 </body>
 </html>

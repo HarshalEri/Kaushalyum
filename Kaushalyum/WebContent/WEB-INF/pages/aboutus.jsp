@@ -62,7 +62,6 @@
 	</div>
 </header>
 
-<!--=======content================================-->
 
 <section id="content">
 	<div class="full-width-container block-1">
@@ -70,7 +69,7 @@
 			<div class="row">
 				<div class="grid_12">
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="img_container"><img src="images/index-1_img-1.jpg" alt="img"></div>
 				</div>
 				<div class="grid_7 preffix_1">
@@ -80,32 +79,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="full-width-container block-2 parallax-block" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Our Team</span></h2>
-					</header>
-				</div>
-				<div class="grid_3">
-					<article>
-						<div class="img_container"><img src="images/Amol.jpg" alt="our team" height="240"></div>
-						<h4>Amol Eri</h4>
-						<p></p>
-					</article>
-				</div>
-				<div class="grid_3">
-					<article>
-						<div class="img_container"><img src="images/index-1_img-3.jpg" alt="our team" height="240"></div>
-						<h4>Vaibhav Deshpande</h4>
-						<p></p>
-					</article>
-				
 	
-			</div>
-		</div>
-	</div>
 	<div class="full-width-container block-3">
 		<div class="container">
 			<div class="row">
@@ -114,19 +88,19 @@
 						<h2><span>Why Choose Us</span></h2>
 					</header>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="grid_1 alpha"><span class="element bd-ra">1</span></div>
 					<div class="grid_3">
 						<p>We listen, we discuss, we advise. Sounds obvious but we listen to your ideas, plans and objectives for your business. We then select the best solution to fit. We don’t shoehorn projects and if we feel we’re not a good fit we’ll be honest and tell you from the outset. </p>
 					</div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="grid_1 alpha"><span class="element bd-ra">2</span></div>
 					<div class="grid_3">
 						<p>What sets us apart from the competition is that we're passionate about the products/services we provide and quality of support.</p>
 					</div>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4_1">
 					<div class="grid_1 alpha"><span class="element bd-ra">3</span></div>
 					<div class="grid_3">
 						<p>We're always looking to improve every aspect of our business. From more features all the way to more frequent tutorials.</p>
@@ -142,13 +116,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png" class="img-circle" height="100" width="100"></span></a>
-				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
-				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
+				<h3><span>Follow Us</span></h3>
+				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
+				<pre>� <span id="copyright-year"></span> |  Privacy Policy</pre>
+				
 			</div>
 		</div>
 	</div>
+	
 </footer>
 <script>
 	$(document).ready(function() { 
@@ -162,6 +138,5 @@
 			}
 		});	
 </script>
-<a href="http://www.freecounterstat.com" target="_Blank" title="hit counter">hit counter</a><br/> <script type="text/javascript" src="http://counter10.01counter.com/private/counter.js?c=7f3273a0fb6bae605244c32a7cdf07b5"></script> 
 </body>
 </html>

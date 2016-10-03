@@ -109,6 +109,7 @@ public class HomeController {
 			
 			if(!err.hasErrors()) {	
 				userService.registerUser(userModel);
+				model.addAttribute(userModel);
 				return "userpage";
 			}
 			if(err.hasErrors()) {

@@ -121,10 +121,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/fb.png" class="img-circle" height="100" width="100"></span></a>
-				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"><img src="C:\Users\vaibs\Desktop\new website\Kaushalyum\images/tw.jpg" height="100" width="100"></span></a>
+				<h3><span>Follow Us</span></h3>
+				<a href="https://www.facebook.com/Kaushalyum-550133541832807/?ref=settings" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/EriAmol" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
 				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
+				
 			</div>
 		</div>
 	</div>

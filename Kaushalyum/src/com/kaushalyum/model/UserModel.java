@@ -27,7 +27,7 @@ public class UserModel {
 	@Length(min=4, max=8)
 	private String cpassword;
 	
-	@Email(message="enter valid email address")
+	@Email(message="Enter valid email address")
 	@NotEmpty(message="Email can not be empty")
 	private String email;
 	
@@ -101,13 +101,9 @@ public class UserModel {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-
 	public String getCpassword() {
 		return cpassword;
 	}
-
-
 	public void setCpassword(String cpassword) {
 		this.cpassword = cpassword;
 	}
